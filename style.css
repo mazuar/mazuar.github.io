@@ -1,0 +1,76 @@
+style.css
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header img {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    background: #444;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+.project img {
+    width: 20%; /* Ustawienie szerokości obrazów na 30% */
+    height: auto;
+    display: inline-block;
+    margin: 0 auto 1rem;
+}
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    text-align: left;
+}
+
+#about video {
+    width: 10%; /* Ustawienie szerokości wideo na 40% */
+    height: auto;
+    margin: 1rem 0;
+}
